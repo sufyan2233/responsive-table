@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="responsive">
+            <li class="table-header">
+                <div class="col-1">JOB ID</div>
+                <div class="col-2">CUSTOMER NAME</div>
+                <div class="col-3">AMOUNT DUE</div>
+                <div class="col-4">PAYMENT STATUS</div>
+            </li>
+            <li class="row 1">
+                <div class="col-1">546656</div>
+                <div class="col-2">John</div>
+                <div class="col-3">50$</div>
+                <div class="col-4">pending</div>
+            </li>
+            <li class="row 2">
+                <div class="col-1">361245</div>
+                <div class="col-2">Henry</div>
+                <div class="col-3">25$</div>
+                <div class="col-4">pending</div>
+            </li>
+            <li class="row 3">
+                <div class="col-1">235453</div>
+                <div class="col-2">Jacob</div>
+                <div class="col-3">75$</div>
+                <div class="col-4">pending</div>
+            </li>
+
+        </ul>
+    </div>
+    <style>
+        .container {
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .responsive li {
+            display: flex;
+
+            padding: 25px 20px;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            border: 2px solid whitesmoke;
+        }
+
+        .table-header {
+            background-color: grey;
+        }
+        .col-1{
+flex: 20%;
+        }
+        .col-2{
+            flex: 50%;
+        }
+        .col-3{
+            flex: 40%;
+
+        }
+        .col-4{
+            flex: 20%;
+        }
+    </style>
+</body>
+
+</html>
